@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Portafolio personal, soy Desarrollador .Net he utilizado tecnologías como .Net, SQL Server, JavaScript,CSS3,HTML5, LINQ">
+    <title>Anthony Rojas Calderón</title>
+    <link rel="shortcut icon" href="assets/iconos/logo.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link href="css\styles.css?v=<%=DateTime.Now%>" rel="stylesheet" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body class="bloque__principal" id="bloque__principal">
+    <label for="menu" class="menu">
+        <img src="assets/iconos/menu.png" class="nav__img" alt="">
+    </label>
+    <input type="checkbox" id="menu" class="nav__input">
+    <header class="encabezado">
+        <h2 class="encabezado__titulo">Bienvenid@ a mi portafolio</h2>
+        <nav class="contenedor__navegacion">
+            <a href="#bloque__principal" class="item__navegacion" id="item__navegacion">Inicio</a>
+            <a href="#contenedor__sobre-mi" class="item__navegacion">Sobre mi</a>
+            <a href="#contenedor__tecnologias" class="item__navegacion">Tecnologías</a>
+            <a href="#contenedor__proyectos" class="item__navegacion">Proyectos</a>
+            <a href="#contenedor__contacto" class="item__navegacion">Contacto</a>
+        </nav>
+    </header>
+    <main class="contenedor__main" id="contenedor__main">
+        <div class="contenedor__main-gradiente">
+            <div class="contenedor__textos">
+                <h1 class="contenedor__texto-principal">¡HOLA! SOY ANTHONY ROJAS CALDERÓN, DESARROLLADOR WEB</h1>
+            </div>
+            <!-- <img src="assets/main.jpg" alt=""> -->
+        </div>
+    </main>
+
+    <section class="contenedor__sobre-mi" id="contenedor__sobre-mi">
+        <div class="contenedor__sobre-mi-centrado">
+            <div class="contenedor__sobre-mi-contenido">
+                <p class="contenedor__sobre-mi-contenido-texto">Sobre mi</p>
+                Soy un desarrollador Web. Actualmente
+                no cuento con experiencia laboral, sin embargo, soy una persona a la que le gusta mucho aprender y
+                disfruto de ello. He trabajado proyectos (a nivel personal) con .Net y Sql Server, me gusta
+                aprender sobre nuevas tecnologías, aunque en este momento mi prioridad es seguir fortaleciendo
+                mis habilidades en las tecnologías que conozco (.Net, SQL, JS,CSS3,HTML5) y saltar a nuevas tecnologías.
+                Si tienes un proyecto de
+                trabajo
+                y crees que yo te podria ayudar, no dudes en contactarme.
+            </div>
+            <div class="contenedor__sobre-mi-targeta">
+                <div class="targeta">
+                    <div class="contenedor__sobre-mi-img">
+                        <div class="atras">¡CONTACTAME!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenedor__tecnologias" id="contenedor__tecnologias">
+        <div class="contenedor__tecnologias-centrado">
+            <p class="contenedor__tecnologias-titulo">Tecnologías</p>
+            <div class="contenedor__tecnologias-grid">
+                <div class="contenedor__tecnologias-cajas grid__csharp">
+                    <div class="grid__icono">
+                        <div class="grid__icono-centrado">
+                            <img src="assets/iconos/csharp.png" class="iconos" alt="C#">
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor__tecnologias-cajas grid__asp">
+                    <div class="grid__icono">
+                        <div class="grid__icono-centrado">
+                            <img src="assets/iconos/net.png" class="iconos" alt=".NET">
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor__tecnologias-cajas grid__sql">
+                    <div class="grid__icono">
+                        <div class="grid__icono-centrado">
+                            <img src="assets/iconos/sql.png" class="iconos" alt="SQL Server">
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor__tecnologias-cajas grid__js">
+                    <div class="grid__icono">
+                        <div class="grid__icono-centrado">
+                            <img src="assets/iconos/javascript.png" class="iconos" alt="JavaScript">
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor__tecnologias-cajas grid__css">
+                    <div class="grid__icono">
+                        <div class="grid__icono-centrado">
+                            <img src="assets/iconos/css3.png" class="iconos" alt="CSS3">
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor__tecnologias-cajas grid__html">
+                    <div class="grid__icono">
+                        <div class="grid__icono-centrado">
+                            <img src="assets/iconos/html5.png" class="iconos" alt="HTML5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenedor__proyectos" id="contenedor__proyectos">
+        <div class="contenedor__proyectos-centrado">
+            <p class="contenedor__proyectos-titulo">Proyectos</p>
+            <div class="contenedor__proyectos-contenido">
+                <div class="contenedor__proyecto">
+                    <div class="proyecto">
+                        <div class="proyecto__titulo">
+                            <p>Matricula en línea</p>
+                        </div>
+                        <div class="proyecto__contenido">
+                            <div class="proyecto__imagen-matricula">
+                            </div>
+                            <div class="proyecto__descripcion">
+                                <p>Sistema que permite realizar matrícula en línea en una institución educativa.
+                                    Creado con Windows Forms (.Net Framework), bajo una arquitectura en N-Capas,
+                                    utiliza SQL Server como base de datos (ADO.Net).
+                                </p>
+                            </div>
+                        </div>
+                        <div class="proyecto__tecnologias">
+                            <div class="proyecto__tecnologias-titulo">
+                                <p>Tecnologías utilizadas</p>
+                            </div>
+                            <div class="proyecto__tecnologias-iconos">
+                                <div class="proyecto__tecnologias-iconos-net"></div>
+                                <div class="proyecto__tecnologias-iconos-sql"></div>
+                            </div>
+                        </div>
+                        <div class="proyecto__link proyecto__link-texto">
+                            <a class="proyecto__link-a" href="https://github.com/AnthonyRojasCalderon/Matricula-en-Linea.git" rel="noopener"
+                                target="_blank">Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor__proyecto">
+                    <div class="proyecto">
+                        <div class="proyecto__titulo">
+                            <p>Inventario y Facturación</p>
+                        </div>
+                        <div class="proyecto__contenido">
+                            <div class="proyecto__imagen-inventario">
+                            </div>
+                            <div class="proyecto__descripcion">
+                                <p>El sistema permite gestionar el inventario de una empresa y realizar la facturación
+                                    de sus ventas. Fue creado con ASP. Net WebForms,
+                                    utiliza SQL Server como base de datos, accede a la información por medio de LINQ.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="proyecto__tecnologias">
+                            <div class="proyecto__tecnologias-titulo">
+                                <p>Tecnologías utilizadas</p>
+                            </div>
+                            <div class="proyecto__tecnologias-iconos">
+                                <div class="proyecto__tecnologias-iconos-asp-net"></div>
+                                <div class="proyecto__tecnologias-iconos-linq"></div>
+                                <div class="proyecto__tecnologias-iconos-sql"></div>
+                                <div class="proyecto__tecnologias-iconos-css"></div>
+                            </div>
+                        </div>
+                        <div class="proyecto__link proyecto__link-texto">
+                            <a class="proyecto__link-a" href="https://github.com/AnthonyRojasCalderon/SistemaFacturacionInventarios.git"
+                                rel="noopener" target="_blank">Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor__proyecto">
+                    <div class="proyecto">
+                        <div class="proyecto__titulo">
+                            <p>Control de presupuesto</p>
+                        </div>
+                        <div class="proyecto__contenido">
+                            <div class="proyecto__imagen-presupuesto">
+                            </div>
+                            <div class="proyecto__descripcion">
+                                <p>Aplicación que permite llevar un control sobre el presupuesto de una persona, se
+                                    podrá
+                                    controlar los egresos e ingresos, creada en JavaScript con programación orientada a
+                                    objetos,
+                                    se utiliza CSS para los estilos.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="proyecto__tecnologias">
+                            <div class="proyecto__tecnologias-titulo">
+                                <p>Tecnologías utilizadas</p>
+                            </div>
+                            <div class="proyecto__tecnologias-iconos">
+                                <div class="proyecto__tecnologias-iconos-html"></div>
+                                <div class="proyecto__tecnologias-iconos-css"></div>
+                                <div class="proyecto__tecnologias-iconos-js"></div>
+                                <div class="proyecto__tecnologias-iconos-reponsive"></div>
+                            </div>
+                        </div>
+                        <div class="proyecto__links">
+                            <div class="proyecto__demo proyecto__link-texto">
+                                <a class="proyecto__link-a" href="https://anthonyrojascalderon.github.io/Presupuesto/" rel="noopener"
+                                    target="_blank">Demo</a>
+                            </div>
+                            <div class="proyecto__link-presupuesto proyecto__link-texto">
+                                <a class="proyecto__link-a" href="https://github.com/AnthonyRojasCalderon/Presupuesto.git" rel="noopener"
+                                    target="_blank">Repositorio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor__proyecto">
+                    <div class="proyecto">
+                        <div class="proyecto__titulo">
+                            <p>API de Marvel</p>
+                        </div>
+                        <div class="proyecto__contenido">
+                            <div class="proyecto__imagen-marvel">
+                            </div>
+                            <div class="proyecto__descripcion">
+                                <p>Aplicación Web que consume y muestra datos de la API de Marvel, utiliza HTML5, CSS3 Y JS. Se accede a los datos de la API a través de la Fetch API de JavaScript.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="proyecto__tecnologias">
+                            <div class="proyecto__tecnologias-titulo">
+                                <p>Tecnologías utilizadas</p>
+                            </div>
+                            <div class="proyecto__tecnologias-iconos">
+                                <div class="proyecto__tecnologias-iconos-html"></div>
+                                <div class="proyecto__tecnologias-iconos-css"></div>
+                                <div class="proyecto__tecnologias-iconos-js"></div>
+                                <div class="proyecto__tecnologias-iconos-reponsive"></div>
+                            </div>
+                        </div>
+                        <div class="proyecto__links">
+                            <div class="proyecto__demo proyecto__link-texto">
+                                <a class="proyecto__link-a" href="https://anthonyrojascalderon.github.io/Api-Marvel/" rel="noopener"
+                                    target="_blank">Demo</a>
+                            </div>
+                            <div class="proyecto__link-presupuesto proyecto__link-texto">
+                                <a class="proyecto__link-a" href="https://github.com/AnthonyRojasCalderon/Api-Marvel.git" rel="noopener"
+                                    target="_blank">Repositorio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="contenedor__contacto" id="contenedor__contacto">
+        <div class="contenedor__contacto-centrado">
+            <p class="contenedor__contacto-titulo">Contacto</p>
+            <form action="https://formspree.io/f/mknkkjvp" method="POST" id="contenedor__contacto-formulario"
+                class="contenedor__contacto-formulario">
+                <div for="name" class="contenedor__contacto-formulario-input">
+                    <input class="input-nombre" name="name" type="text" autocomplete="off" placeholder="Nombre"
+                        required="">
+                </div>
+                <div for="correo" class="contenedor__contacto-formulario-input">
+                    <input class="input-correo" id="input-correo" name="correo" type="text" autocomplete="off"
+                        placeholder="Correo" required="">
+                    <small class="small">Correo invalido!</small>
+                </div>
+                <div for="mensaje" class="contenedor__contacto-formulario-input">
+                    <input class="input-mensaje" name="mensaje" type="text" autocomplete="off" placeholder="Mensaje"
+                        required="">
+                </div>
+                <div class="contenedor__contacto-formulario-boton">
+                    <button class="boton" type="submit" name="enviar">Enviar mensaje</button>
+                </div>
+                <div class="contenedor__contacto-formulario-redes">
+                    <div class="contenedor__contacto-formulario-redes-linkedin">
+                        <a class="contenedor__contacto-formulario-redes-linkedin-link"
+                            href="https://linkedin.com/in/anthonyrojascalderon" rel="noopener" target="_blank">
+                            <img src="assets/iconos/linkedin.png" alt="Linkedin" title="Linkedin">
+                        </a>
+                    </div>
+                    <div class="contenedor__contacto-formulario-redes-github">
+                        <a class="contenedor__contacto-formulario-redes-github-link"
+                            href="https://github.com/AnthonyRojasCalderon?tab=repositories" rel="noopener"
+                            target="_blank">
+                            <img src="assets/iconos/github.png" alt="GitHub" title="GitHub">
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-container">
+            <div class="modal modal-close">
+                <p class="close">X</p>
+                <img src="assets/modal.svg" alt="">
+                <div class="modal-texto">
+                    <h2>Gracias por contactarme</h2>
+                    <p>Pronto respondere a tu correo!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contenedor__footer">
+            <div class="contenedor__footer-contenido">
+                <p>Creado por <span> Anthony </span> <img class="copyright" src="assets/iconos/copyright.png" alt=""
+                        title="Copyright"> Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
