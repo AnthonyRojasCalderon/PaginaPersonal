@@ -502,6 +502,15 @@ body.sticky-header header h2 {
   background-size: cover;
 }
 
+.proyecto__crud-tarjetas {
+  background-image: url(../assets/proyectos/tarjetas.PNG);
+  height: 85%;
+  width: 35%;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: contain;
+}
+
 .proyecto__uno-imagen img {
   -o-object-fit: contain;
   object-fit: contain;
@@ -542,6 +551,33 @@ body.sticky-header header h2 {
   width: 15%;
   height: 80%;
   background-image: url(../assets/iconos/net.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.proyecto__tecnologias-iconos-angular {
+  width: 15%;
+  height: 80%;
+  background-image: url(../assets/iconos/angular.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.proyecto__tecnologias-iconos-netcore {
+  width: 15%;
+  height: 80%;
+  background-image: url(../assets/iconos/NET_Core.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.proyecto__tecnologias-iconos-bootstrap{
+  width: 15%;
+  height: 80%;
+  background-image: url(../assets/iconos/bootstrap.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
